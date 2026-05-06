@@ -21,7 +21,6 @@ if (!isObject(LiFxRecipeBerrySwap2264))
 package LiFxRecipeBerrySwap2264
 {
     function LiFxRecipeBerrySwap2264::setup() {
-        LiFx::registerCallback($LiFx::hooks::onServerCreatedCallbacks, DbChanges, LiFxRecipeBerrySwap2264);
         LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, DbChanges, LiFxRecipeBerrySwap2264);
     }
 
