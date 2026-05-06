@@ -4,7 +4,7 @@ Claude Code skills for working with the [LiFx](https://lifxmod.com) Life is Feud
 
 ## Skills
 
-- `skills/lifx-recipe-mod/` — Generate a drop-in `mod.cs` that adds new recipes (via `LiFx::registerRecipe`) and/or edits existing vanilla recipes and recipe requirements (via `dbi.Update` SQL), validated against the vanilla `dump.sql`.
+- [`skills/lifx-recipe-mod/`](skills/lifx-recipe-mod/) — Generate a drop-in `mod.cs` that adds new recipes (via `LiFx::registerRecipe`) and/or edits existing vanilla recipes and recipe requirements (via `dbi.Update` SQL), validated against the vanilla `dump.sql`. See [`examples/swap-apple-to-berry-2264`](skills/lifx-recipe-mod/examples/swap-apple-to-berry-2264/).
 
 ## Use
 
