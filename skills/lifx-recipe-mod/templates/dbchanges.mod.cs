@@ -19,7 +19,6 @@ if (!isObject({{MOD}}))
 package {{MOD}}
 {
     function {{MOD}}::setup() {
-        LiFx::registerCallback($LiFx::hooks::onServerCreatedCallbacks, DbChanges, {{MOD}});
         LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, DbChanges, {{MOD}});
     }
 
